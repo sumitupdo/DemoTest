@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suite]" parallel="methods">
+  <test name="ArchiBus Functionality test(failed)" parallel="methods">
+    <classes>
+      <class name="com.archibus.qa.uitests.DevelopBackgroundData">
+        <methods>
+          <include name="TC011_NewRoomReservationTest"/>
+          <include name="before"/>
+          <include name="afterMainMethod"/>
+          <include name="tearDownSuite"/>
+          <include name="TC03_DefineRoomConfiguratonTest"/>
+          <include name="initializePages"/>
+          <include name="TC006_DefineResourceStandardsTest"/>
+          <include name="TC02_DefineReservableRoomTest"/>
+          <include name="driversetup"/>
+        </methods>
+      </class> <!-- com.archibus.qa.uitests.DevelopBackgroundData -->
+    </classes>
+  </test> <!-- ArchiBus Functionality test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

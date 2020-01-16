@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods" thread-count="1">
+<!-- 
+ <listeners>
+        <listener class-name="com.eaf.qa.reporting.CustomReport" />
+        <listener class-name="com.eaf.qa.reporting.ExtentReporterNG" />
+ </listeners>
+  -->
+  <test name="SM2 Functionality test">
+  
+  <!-- 
+     <groups>
+			<run>
+				<include name="prod" />
+				<exclude name="IgnoreForNow" />
+			</run>
+	 </groups>
+ -->
+		
+    <classes>
+     <!-- 
+    <class name="com.eaf.qa.uitests.PrerequisiteForSM2Test">
+       <methods>
+       		<include name="PrerequisiteToAddVehicleForWorkOrders" />
+       		<include name="PrerequisiteToAddUserForWorkOrders" />
+       		<include name="AddWorkOrders" />
+       		<include name="AddDevices" />
+	   </methods>    
+	</class>   
+	 -->
+	
+	
+	<class name="com.eaf.qa.uitests.MaintenanceClassTest">
+	  <methods>
+	  
+	  <include name="verifyMaintenanceClassesSubTabCreateNewViewForm" />
+	  <include name="clickActionsOnMaintenanceClassesSubTab" />
+	  <include name="createNewView" />
+	  <include name="verifyNewelyCreatedView" />
+	  <include name="verifyHideIconWithView" />
+	  <include name="HideAndUnhideView" />
+	  <include name="verifyHideIconWithView" />
+	  <include name="verifyDeleteIconWithUserCreatedView" />
+	  
+	  </methods>
+    </class>
+		
+		
+		
+		
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

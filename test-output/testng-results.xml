@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="124310" started-at="2020-01-14T09:59:36Z" finished-at="2020-01-14T10:01:40Z">
+    <groups>
+    </groups>
+    <test name="ArchiBus Functionality test" duration-ms="124310" started-at="2020-01-14T09:59:36Z" finished-at="2020-01-14T10:01:40Z">
+      <class name="com.mtp.qa.uitests.LoginTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.mtp.qa.uitests.LoginTest@7f0eb4b4]" name="before" is-config="true" duration-ms="143" started-at="2020-01-14T15:29:35Z" finished-at="2020-01-14T15:29:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="driversetup()[pri:0, instance:com.mtp.qa.uitests.LoginTest@7f0eb4b4]" name="driversetup" is-config="true" duration-ms="22931" started-at="2020-01-14T15:29:36Z" finished-at="2020-01-14T15:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method status="PASS" signature="initializePages()[pri:0, instance:com.mtp.qa.uitests.LoginTest@7f0eb4b4]" name="initializePages" is-config="true" duration-ms="318" started-at="2020-01-14T15:29:59Z" finished-at="2020-01-14T15:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePages -->
+        <test-method status="PASS" signature="loginToMyTaskPanelApplicationTest()[pri:0, instance:com.mtp.qa.uitests.LoginTest@7f0eb4b4]" name="loginToMyTaskPanelApplicationTest" duration-ms="12470" started-at="2020-01-14T15:29:59Z" description="To verify login to MY Task Panel application" finished-at="2020-01-14T15:30:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToMyTaskPanelApplicationTest -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.mtp.qa.uitests.LoginTest@7f0eb4b4]" name="afterMainMethod" is-config="true" duration-ms="9844" started-at="2020-01-14T15:30:11Z" finished-at="2020-01-14T15:30:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToMyTaskPanelApplicationTest status=SUCCESS method=LoginTest.loginToMyTaskPanelApplicationTest()[pri:0, instance:com.mtp.qa.uitests.LoginTest@7f0eb4b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="driversetup()[pri:0, instance:com.mtp.qa.uitests.LoginTest@7f0eb4b4]" name="driversetup" is-config="true" duration-ms="11660" started-at="2020-01-14T15:30:21Z" finished-at="2020-01-14T15:30:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method status="PASS" signature="initializePages()[pri:0, instance:com.mtp.qa.uitests.LoginTest@7f0eb4b4]" name="initializePages" is-config="true" duration-ms="2" started-at="2020-01-14T15:30:33Z" finished-at="2020-01-14T15:30:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePages -->
+        <test-method status="PASS" signature="createTaskTest()[pri:0, instance:com.mtp.qa.uitests.LoginTest@7f0eb4b4]" name="createTaskTest" duration-ms="36736" started-at="2020-01-14T15:30:33Z" description="To verify Task Creation" finished-at="2020-01-14T15:31:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTaskTest -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.mtp.qa.uitests.LoginTest@7f0eb4b4]" name="afterMainMethod" is-config="true" duration-ms="1342" started-at="2020-01-14T15:31:10Z" finished-at="2020-01-14T15:31:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createTaskTest status=SUCCESS method=LoginTest.createTaskTest()[pri:0, instance:com.mtp.qa.uitests.LoginTest@7f0eb4b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="driversetup()[pri:0, instance:com.mtp.qa.uitests.LoginTest@7f0eb4b4]" name="driversetup" is-config="true" duration-ms="9745" started-at="2020-01-14T15:31:11Z" finished-at="2020-01-14T15:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method status="PASS" signature="initializePages()[pri:0, instance:com.mtp.qa.uitests.LoginTest@7f0eb4b4]" name="initializePages" is-config="true" duration-ms="1" started-at="2020-01-14T15:31:21Z" finished-at="2020-01-14T15:31:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePages -->
+        <test-method status="PASS" signature="deleteTaskTest()[pri:0, instance:com.mtp.qa.uitests.LoginTest@7f0eb4b4]" name="deleteTaskTest" duration-ms="18352" started-at="2020-01-14T15:31:21Z" description="To verify Delete Task" finished-at="2020-01-14T15:31:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTaskTest -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:com.mtp.qa.uitests.LoginTest@7f0eb4b4]" name="afterMainMethod" is-config="true" duration-ms="883" started-at="2020-01-14T15:31:39Z" finished-at="2020-01-14T15:31:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteTaskTest status=SUCCESS method=LoginTest.deleteTaskTest()[pri:0, instance:com.mtp.qa.uitests.LoginTest@7f0eb4b4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="tearDownSuite()[pri:0, instance:com.mtp.qa.uitests.LoginTest@7f0eb4b4]" name="tearDownSuite" is-config="true" duration-ms="141" started-at="2020-01-14T15:31:40Z" finished-at="2020-01-14T15:31:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- com.mtp.qa.uitests.LoginTest -->
+    </test> <!-- ArchiBus Functionality test -->
+  </suite> <!-- Suite -->
+</testng-results>
