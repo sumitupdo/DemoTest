@@ -10,7 +10,7 @@ import com.mtp.qa.base.BasePage;
 
 public class AccountsPage extends BasePage {
 
-	/** The Log. */
+	/** The Log. log */
 	private static Logger Log = LogManager.getLogger(LoginPage.class.getName());
 
 	/** Account in accounts */
