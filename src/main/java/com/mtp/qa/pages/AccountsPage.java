@@ -10,7 +10,7 @@ import com.mtp.qa.base.BasePage;
 
 public class AccountsPage extends BasePage {
 
-	/** The Log. */
+	/** The Log. log log log log log log */
 	private static Logger Log = LogManager.getLogger(LoginPage.class.getName());
 
 	/** Account in accounts */
@@ -28,5 +28,5 @@ public class AccountsPage extends BasePage {
 		waitForElementToBecomeVisible(accountName, longWait);
 		clickAndWait(accountName, longWait);
 	}
-
+ //hjhgghj
 }
